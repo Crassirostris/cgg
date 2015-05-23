@@ -5,9 +5,9 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGG.Core", "CGG.Core\CGG.Core.csproj", "{A4C1744A-08E6-4046-9F83-74186B62E7F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First", "First\First.csproj", "{DC870CBC-8973-4F05-BF76-13604243797A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGG.First", "CGG.First\CGG.First.csproj", "{DC870CBC-8973-4F05-BF76-13604243797A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Second", "Second\Second.csproj", "{5C08B21C-9DA3-47BA-A935-5179167C7042}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGG.Second", "CGG.Second\CGG.Second.csproj", "{5C08B21C-9DA3-47BA-A935-5179167C7042}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

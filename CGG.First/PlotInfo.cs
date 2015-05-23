@@ -1,4 +1,4 @@
-namespace First
+namespace CGG.First
 {
     internal class PlotInfo
     {

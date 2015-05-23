@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Second
+namespace CGG.First
 {
     static class Program
     {
@@ -16,7 +13,7 @@ namespace Second
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SecondForm());
+            Application.Run(new FirstForm());
         }
     }
 }

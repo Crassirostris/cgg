@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Drawing.Drawing2D;
 
-namespace First
+namespace CGG.First
 {
     public static class Settings
     {

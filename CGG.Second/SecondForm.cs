@@ -5,7 +5,7 @@ using System.Linq;
 using System.Windows.Forms;
 using CGG.Core;
 
-namespace Second
+namespace CGG.Second
 {
     public partial class SecondForm : Form
     {

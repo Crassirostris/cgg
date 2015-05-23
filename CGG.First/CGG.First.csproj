@@ -7,8 +7,8 @@
     <ProjectGuid>{DC870CBC-8973-4F05-BF76-13604243797A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>First</RootNamespace>
-    <AssemblyName>First</AssemblyName>
+    <RootNamespace>CGG.First</RootNamespace>
+    <AssemblyName>CGG.First</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

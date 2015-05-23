@@ -2,7 +2,7 @@ using System;
 using System.Drawing;
 using CGG.Core;
 
-namespace Second
+namespace CGG.Second
 {
     internal class PlotInfo
     {

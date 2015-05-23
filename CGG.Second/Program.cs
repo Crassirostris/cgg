@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace First
+namespace CGG.Second
 {
     static class Program
     {
@@ -13,7 +13,7 @@ namespace First
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FirstForm());
+            Application.Run(new SecondForm());
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Second
+﻿namespace CGG.Second
 {
     partial class SecondForm
     {

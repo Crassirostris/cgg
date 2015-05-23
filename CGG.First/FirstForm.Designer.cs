@@ -1,4 +1,4 @@
-﻿namespace First
+﻿namespace CGG.First
 {
     partial class FirstForm
     {
@@ -187,7 +187,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::First.Properties.Resources.Task_plot;
+            this.pictureBox2.Image = global::CGG.First.Properties.Resources.Task_plot;
             this.pictureBox2.Location = new System.Drawing.Point(11, 16);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(135, 45);

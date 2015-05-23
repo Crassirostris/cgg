@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace Second
+namespace CGG.Second
 {
     public static class Settings
     {

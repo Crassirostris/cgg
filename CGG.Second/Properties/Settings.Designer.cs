@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace First.Properties {
+namespace CGG.Second.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
