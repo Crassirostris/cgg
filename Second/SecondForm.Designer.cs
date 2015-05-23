@@ -38,6 +38,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +57,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.textBox4);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.textBox3);
@@ -65,7 +69,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(853, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(299, 109);
+            this.panel1.Size = new System.Drawing.Size(299, 150);
             this.panel1.TabIndex = 1;
             // 
             // textBox4
@@ -75,7 +79,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(80, 33);
             this.textBox4.TabIndex = 8;
-            this.textBox4.Text = "1";
+            this.textBox4.Text = "-10";
             this.textBox4.Enter += new System.EventHandler(this.NumberBoxOnGetFocus);
             this.textBox4.Leave += new System.EventHandler(this.NumberBoxOnLostFocus);
             // 
@@ -93,11 +97,11 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Segoe UI Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(206, 17);
+            this.textBox3.Location = new System.Drawing.Point(72, 56);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(80, 33);
             this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "1";
+            this.textBox3.Text = "-10";
             this.textBox3.Enter += new System.EventHandler(this.NumberBoxOnGetFocus);
             this.textBox3.Leave += new System.EventHandler(this.NumberBoxOnLostFocus);
             // 
@@ -115,11 +119,11 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Segoe UI Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(72, 56);
+            this.textBox2.Location = new System.Drawing.Point(206, 17);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(80, 33);
             this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "1";
+            this.textBox2.Text = "10";
             this.textBox2.Enter += new System.EventHandler(this.NumberBoxOnGetFocus);
             this.textBox2.Leave += new System.EventHandler(this.NumberBoxOnLostFocus);
             // 
@@ -141,7 +145,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(80, 33);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "-1";
+            this.textBox1.Text = "10";
             this.textBox1.Enter += new System.EventHandler(this.NumberBoxOnGetFocus);
             this.textBox1.Leave += new System.EventHandler(this.NumberBoxOnLostFocus);
             // 
@@ -156,12 +160,34 @@
             this.label1.Text = "F₁x";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Segoe UI Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(72, 95);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(80, 33);
+            this.textBox5.TabIndex = 10;
+            this.textBox5.Text = "20";
+            this.textBox5.Enter += new System.EventHandler(this.NumberBoxOnGetFocus);
+            this.textBox5.Leave += new System.EventHandler(this.NumberBoxOnLostFocus);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(45, 98);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(21, 25);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "a";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // SecondForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1305, 521);
+            this.ClientSize = new System.Drawing.Size(1159, 521);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "SecondForm";
@@ -186,6 +212,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label5;
     }
 }
 
