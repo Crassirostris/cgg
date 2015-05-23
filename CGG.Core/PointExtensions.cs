@@ -2,7 +2,7 @@ using System;
 using System.Drawing;
 using System.Linq;
 
-namespace Second
+namespace CGG.Core
 {
     public static class PointExtensions
     {

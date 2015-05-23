@@ -45,8 +45,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PlotInfo.cs" />
-    <Compile Include="PointExtensions.cs" />
-    <Compile Include="PointFExtensions.cs" />
     <Compile Include="SecondForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CGG.Core\CGG.Core.csproj">
+      <Project>{a4c1744a-08e6-4046-9f83-74186b62e7f9}</Project>
+      <Name>CGG.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

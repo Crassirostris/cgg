@@ -2,9 +2,9 @@ using System;
 using System.Drawing;
 using System.Linq;
 
-namespace Second
+namespace CGG.Core
 {
-    internal static class PointFExtensions
+    public static class PointFExtensions
     {
         public static PointF Add(this PointF left, PointF right)
         {
