@@ -50,5 +50,10 @@ namespace CGG.Core
         {
             return point.Divide(point.Length());
         }
+
+        public static float CrossProduct(this PointF left, PointF right)
+        {
+            return left.X * right.Y - left.Y * right.X;
+        }
     }
 }

@@ -28,6 +28,16 @@ namespace CGG.Core
             return new Point(left.X - right.X, left.Y - right.Y);
         }
 
+        public static PointF Add(this Point left, PointF right)
+        {
+            return new PointF(left.X + right.X, left.Y + right.Y);
+        }
+
+        public static PointF Substract(this Point left, PointF right)
+        {
+            return new PointF(left.X - right.X, left.Y - right.Y);
+        }
+
         public static PointF Muliply(this Point left, float a)
         {
             return new PointF(left.X * a, left.Y * a);
