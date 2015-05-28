@@ -15,7 +15,8 @@ namespace CGG.Sixth
             new CombinedTriangleProvider(
                 new CubeTriangleProvider(new Point3D(0, 0, 0), 1f),
                 new CubeTriangleProvider(new Point3D(4, 4, 0), 2f),
-                new CubeTriangleProvider(new Point3D(-8, 8, 0), 3f)
+                new CubeTriangleProvider(new Point3D(-8, 8, 0), 3f),
+                new FunctionTriangleProvider(-10, 10, -10, 10, 0.5f, (x, y) => (float)(10 + Math.Sin(Math.Sqrt(x * x + y * y))))
                 ),
             new Point3D(15, 15, 15),
             1f,
@@ -47,6 +48,10 @@ namespace CGG.Sixth
                 plotInfo.Turn(TurnDirection.Up);
             if (Keyboard.IsKeyDown(Key.Down))
                 plotInfo.Turn(TurnDirection.Down);
+            if (Keyboard.IsKeyDown(Key.W))
+                Settings.ZoomCoefficient += Settings.ZoomStep;
+            if (Keyboard.IsKeyDown(Key.S))
+                Settings.ZoomCoefficient -= Settings.ZoomStep;
             Redraw();
         }
 

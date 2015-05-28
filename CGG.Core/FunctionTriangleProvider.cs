@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Windows.Media.Media3D;
 
 namespace CGG.Core
 {
@@ -24,7 +25,16 @@ namespace CGG.Core
 
         public IEnumerable<Triangle> Produce()
         {
-            throw new NotImplementedException();
+            for (float x = x1; x < x2; x += tick)
+                for (float y = y1; y < y2; y += tick)
+                {
+                    var z1 = func(x, y);
+                    var z2 = func(x + tick, y);
+                    var z3 = func(x, y + tick);
+                    var z4 = func(x + tick, y + tick);
+                    yield return new Triangle(new Point3D(x, y, z1), new Point3D(x + tick, y, z2), new Point3D(x, y + tick, z3));
+                    yield return new Triangle(new Point3D(x + tick, y, z2), new Point3D(x, y + tick, z3), new Point3D(x + tick, y + tick, z4));
+                }
         }
     }
 }

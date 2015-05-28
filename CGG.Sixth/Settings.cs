@@ -6,6 +6,7 @@ namespace CGG.Sixth
     {
         public static float TurnAngle = 0.1f;
         public static float ZoomCoefficient = 500f;
+        public static float ZoomStep = 5f;
         public static int TickInterval = 100;
 
         public static readonly Brush BackgroundBrush = new SolidBrush(Color.White);
