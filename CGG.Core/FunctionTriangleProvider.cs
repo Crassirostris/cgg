@@ -24,13 +24,7 @@ namespace CGG.Core
 
         public IEnumerable<Triangle> Produce()
         {
-            for (float x = x1; x < x2; x += tick)
-                for (float y = y1; y < y2; y += tick)
-                {
-                    var z1 = func(x, y);
-                    var z2 = func(x + tick, y);
-                    var z3 = func(x, y + tick)
-                }
+            throw new NotImplementedException();
         }
     }
 }
