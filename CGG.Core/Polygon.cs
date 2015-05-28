@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace CGG.Third
+namespace CGG.Core
 {
     public class Polygon
     {

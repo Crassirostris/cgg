@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -40,12 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CombinedTriangleProvider.cs" />
+    <Compile Include="CubeTriangleProvider.cs" />
     <Compile Include="FullTraversalHelper.cs" />
+    <Compile Include="ITriangleProvider.cs" />
+    <Compile Include="MathHelper.cs" />
     <Compile Include="PointExtensions.cs" />
     <Compile Include="PointFExtensions.cs" />
     <Compile Include="Polygon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Segment.cs" />
+    <Compile Include="Triangle.cs" />
+    <Compile Include="Vector3DExtenstions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

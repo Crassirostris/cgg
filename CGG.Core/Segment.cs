@@ -1,8 +1,7 @@
 using System;
 using System.Drawing;
-using CGG.Core;
 
-namespace CGG.Third
+namespace CGG.Core
 {
     public struct Segment : IEquatable<Segment>
     {

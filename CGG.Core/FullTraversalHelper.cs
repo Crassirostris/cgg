@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CGG.Third
+namespace CGG.Core
 {
     public static class FullTraversalHelper
     {
